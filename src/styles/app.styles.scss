@@ -1,0 +1,21 @@
+body, html{
+  margin: 0;
+  overflow-x: hidden;
+}
+.home-page{
+  background: #131313 url('../assets//images/nlights.jpeg') center fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover cover;
+  color: white;
+
+  overflow: hidden;
+
+  .card{
+    background: rgba(0, 0, 0, 0.5);
+    padding: 3em;
+  }
+}
